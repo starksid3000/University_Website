@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous"></head> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i onclick="hidemenu()" class="fa fa-times"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+      <!--  blog page content -->
+      <section class="blogcontent">
+          <div class="row">
+              <div class="blog-left">
+                    <img src="images/certificate.jpg" alt="">
+                    <h2>Our Certifiacte & Online Programs For 2021</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis inventore excepturi eligendi. Magnam, voluptatum? Possimus reprehenderit ea laboriosam asperiores facere iste ipsum nulla deserunt culpa!</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eligendi corporis ea non fugit laudantium totam? Facere repellat possimus nobis est saepe dicta voluptatibus quos.</p>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem vitae exercitationem neque, aliquam possimus maxime quasi laudantium quidem? Eligendi molestiae quisquam reprehenderit, est debitis tenetur magnam dolores ipsa ducimus, cupiditate accusamus necessitatibus expedita, sequi beatae. Deserunt porro earum iure dicta, cupiditate officiis fuga! Asperiores doloribus natus est quod quidem rerum, veniam cupiditate impedit explicabo reprehenderit molestias voluptatibus repudiandae ea fugiat dolores! Magni enim facilis corrupti alias nam quam impedit a ea provident quae cum architecto placeat quos, aspernatur assumenda quisquam quod laborum deserunt reiciendis aperiam? Iste porro, sit hic excepturi nemo debitis molestias adipisci suscipit quibusdam dignissimos, dicta eveniet. Cupiditate!</p>
+              
+                    <div class="comment-box">
+                        <h3>Leave comment</h3>
+                        <form action="" class="comment-form">
+                            <input type="text" placeholder="Enter name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Enter Comment"></textarea>
+                            <button class="hero-btn red-btn">Post Comment</button>
+                        </form>
+                    </div>
+                </div>
+              <div class="blog-right">
+                    <h3>Post categories</h3>
+                    <div>
+                        <span>Bussiness analitics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Internet of Things</span>
+                        <span>12</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>18</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>6</span>
+                    </div>
+                    <div>
+                        <span>Block chain</span>
+                        <span>2</span>
+                    </div>
+                    <div>
+                        <span>artificial intelligent</span>
+                        <span>10</span>
+                    </div>
+                    <div>
+                        <span>Machine learning</span>
+                        <span>8</span>
+                    </div>
+              </div>
+          </div>
+      </section>
+
+
+
+<section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex veritatis neque officiis nemo placeat delectus ratione. Eius, quae.</p>
+   <div class="icons">
+       <i class="fa fa-facebook"></i>
+       <i class="fa fa-twitter"></i>
+       <i class="fa fa-instagram"></i>
+       <i class="fa fa-linkedin"></i>
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i> By Siddharth Dave</p>
+</section>
+
+    <!-- JS for toggle menu -->
+    <script>
+        const nl = document.getElementById('navlinks');
+        function showmenu(){
+            nl.style.right="0";
+        }
+        function hidemenu(){
+            nl.style.right="-200px"
+        }
+    </script>
+</body>
+</html>

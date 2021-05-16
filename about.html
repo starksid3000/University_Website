@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous"></head> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i onclick="hidemenu()" class="fa fa-times"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About US</h1>
+      </section>
+      <!-- Content -->
+      <section class="about-us">
+        <div class="row">
+          <div class="about-col">
+            <h1>We are the world's largest University</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt ipsam esse officia velit ullam ab nesciunt vero, voluptatem tempora quam? Illum et quod iusto consequuntur, aliquam tempore exercitationem blanditiis cum ipsum, corrupti dicta iure laudantium obcaecati nam repellat similique voluptatum nobis! Voluptatibus, dolorum. Laborum, est ipsam ratione quas omnis sunt?</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+          </div>
+          <div class="about-col">
+            <img src="images/about.jpg" alt="">
+          </div>
+        </div>
+      </section>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex veritatis neque officiis nemo placeat delectus ratione. Eius, quae.</p>
+   <div class="icons">
+       <i class="fa fa-facebook"></i>
+       <i class="fa fa-twitter"></i>
+       <i class="fa fa-instagram"></i>
+       <i class="fa fa-linkedin"></i>
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i> By Siddharth Dave</p>
+</section>
+
+    <!-- JS for toggle menu -->
+    <script>
+        const nl = document.getElementById('navlinks');
+        function showmenu(){
+            nl.style.right="0";
+        }
+        function hidemenu(){
+            nl.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
